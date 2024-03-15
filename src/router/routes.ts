@@ -62,6 +62,69 @@ export const routes = [
           border: false,
         },
       },
+      {
+        name: 'sleep',
+        path: '/sleep',
+        component: () => import('@/views/home/health/item/sleep/index.vue'),
+        meta: {
+          title: 'home.sleep',
+          border: false,
+        },
+      },
+      {
+        name: 'blood_oxgeon',
+        path: '/blood_oxgeon',
+        component: () => import('@/views/home/health/item/blood_oxgeon/index.vue'),
+        meta: {
+          title: 'home.blood_oxgeon',
+          border: false,
+        },
+      },
+      {
+        name: 'blood_pressure',
+        path: '/blood_pressure',
+        component: () => import('@/views/home/health/item/blood_pressure/index.vue'),
+        meta: {
+          title: 'home.blood_pressure',
+          border: false,
+        },
+      },
+      {
+        name: 'blood_sugar',
+        path: '/blood_sugar',
+        component: () => import('@/views/home/health/item/blood_sugar/index.vue'),
+        meta: {
+          title: 'home.blood_sugar',
+          border: false,
+        },
+      },
+      {
+        name: 'breathe',
+        path: '/breathe',
+        component: () => import('@/views/home/health/item/breathe/index.vue'),
+        meta: {
+          title: 'home.breathe',
+          border: false,
+        },
+      },
+      {
+        name: 'meto',
+        path: '/meto',
+        component: () => import('@/views/home/health/item/meto/index.vue'),
+        meta: {
+          title: 'home.meto',
+          border: false,
+        },
+      },
+      {
+        name: 'pressure',
+        path: '/pressure',
+        component: () => import('@/views/home/health/item/pressure/index.vue'),
+        meta: {
+          title: 'home.pressure',
+          border: false,
+        },
+      },
     ],
   },
   {

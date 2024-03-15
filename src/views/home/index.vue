@@ -18,7 +18,7 @@
   <div class="Title">{{ $t('home.Usage') }}</div>
   <nut-grid class="gridmain" :gutter="10" :column-num="2">
     <nut-grid-item to="/health" :text="$t('home.health')"><div :class="['grad1', locale]" /></nut-grid-item>
-    <nut-grid-item :text="$t('home.the_heart')"><div :class="['grad1', locale]" /></nut-grid-item>
+    <nut-grid-item url="http://app.wearinsoft.com:8003/heart/" :text="$t('home.the_heart')"><div :class="['grad1', locale]" /></nut-grid-item>
     <nut-grid-item :text="$t('home.person')"><div :class="['grad1', locale]" /></nut-grid-item>
   </nut-grid>
 
@@ -29,7 +29,7 @@
     <nut-grid-item :text="$t('home.the_heart')"></nut-grid-item>
     <nut-grid-item :text="$t('home.person')"></nut-grid-item>
   </nut-grid>
-<!--  <nut-cell-group :title="$t('home.cssMultiLanguage')" class="supportList">
+ <nut-cell-group :title="$t('home.cssMultiLanguage')" class="supportList">
     <nut-cell>
       <div :class="['btn-confirm', locale]"></div>
     </nut-cell>
@@ -41,7 +41,7 @@
     <nut-button shape="square" size="small" type="default" @click="changeLang('en-us')">
       {{ $t('language.en') }}
     </nut-button>
-  </div>-->
+  </div>
   {{ getUserInfo }}
 </template>
 

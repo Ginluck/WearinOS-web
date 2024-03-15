@@ -14,8 +14,8 @@
       <img class="imgbanner" :src="image" />
     </van-swipe-item>
   </van-swipe>
-  <nut-cell-group :title="$t('home.Usage')" class="supportList">
-  </nut-cell-group>
+
+  <div class="Title">{{ $t('home.Usage') }}</div>
   <nut-grid class="gridmain" :gutter="5" :column-num="2">
     <nut-grid-item :text="$t('home.fast')"><div :class="['grad1', locale]" /></nut-grid-item>
     <nut-grid-item :text="$t('home.tools')"><div :class="['grad1', locale]" /></nut-grid-item>
@@ -24,10 +24,9 @@
     <nut-grid-item :text="$t('home.other')"><div :class="['grad1', locale]" /></nut-grid-item>
   </nut-grid>
 
-  <nut-cell-group :title="$t('home.Guess')" class="supportList">
-  </nut-cell-group>
+  <div class="Title">{{ $t('home.Guess') }}</div>
   <nut-grid class="gridmain2" :center="false" :gutter="0" :column-num="1">
-    <nut-grid-item to="/health" :text="$t('home.health')"></nut-grid-item>
+    <nut-grid-item :text="$t('home.health')"></nut-grid-item>
     <nut-grid-item :text="$t('home.the_heart')"></nut-grid-item>
     <nut-grid-item :text="$t('home.person')"></nut-grid-item>
   </nut-grid>
@@ -114,7 +113,8 @@ const changeLang = (type) => {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .view {
+  view {
+
     color: #000000;
     border-radius: 20px;
     font-weight: bold;
@@ -127,10 +127,14 @@ const changeLang = (type) => {
 .gridmain {
   border-radius: 15px;
   margin-top: 10px;
+
   view {
     color: #000000;
-    border-radius: 20px;
     font-weight: bold;
+    view{
+      font-size: 30px;
+      font-weight: bold;
+    }
   }
 }
 .gridmain2 {
@@ -143,10 +147,12 @@ const changeLang = (type) => {
     color: #3d3d3d;
     border-radius: 20px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     view {
+      font-weight: normal;
       text-align: left;
-
+      font-size: 30px;
+      color: #505050;
     }
   }
 }
@@ -166,5 +172,14 @@ const changeLang = (type) => {
 }
 .grad3 {
   @include main-lang-bg(302px, 82px, '/@/assets/button', 'confirm.png');
+}
+.Title {
+  color: #1b1b1b;
+  font-size: 35px;
+  font-weight: bold;
+  padding-right: 18px;
+  padding-left: 18px;
+  padding-top: 40px;
+  margin-bottom: 35px;
 }
 </style>

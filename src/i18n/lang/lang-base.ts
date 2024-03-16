@@ -94,10 +94,10 @@ export type langType = {
 
   };
 
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/main
+
+
+
   member: {
     quick_start: {
       appearance: string;
@@ -169,10 +169,10 @@ export type langType = {
     person_account_desc2:string;
     person_account_desc3:string;
   };
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/main
+
+
+
   list: {
     details: string;
 

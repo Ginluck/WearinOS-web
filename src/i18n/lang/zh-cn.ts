@@ -101,11 +101,11 @@ export const lang: langType = {
 
 
   },
-<<<<<<< HEAD
-=======
 
 
->>>>>>> origin/main
+
+
+
 
   member: {
     quick_start: {
@@ -174,10 +174,10 @@ export const lang: langType = {
     person_account_desc3: '● 在WearinOS App个人中心，点击设置进入账号中心，再点击退出登录来退出账号'
   },
 
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/main
+
+
+
   list: {
     details: '列表详情',
     sport_type: '选择运动类型',

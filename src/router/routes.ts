@@ -170,41 +170,43 @@ export const routes = [
         },
       },
       {
-<<<<<<< HEAD
+
         name: 'appearance',
         path: '/appearance',
         component: () => import('@/views/member/quick_start/appearance/index.vue'),
         meta: {
           title: 'home.pressure',
-=======
+
         name: 'startsport',
         path: '/startsport',
         component: () => import('@/views/list/startsport/index.vue'),
         meta: {
           title: 'home.startsport',
->>>>>>> origin/main
+
           border: false,
         },
       },
+      },
       {
-<<<<<<< HEAD
+
         name: 'wear',
         path: '/wear',
         component: () => import('@/views/member/quick_start/wear/index.vue'),
         meta: {
           title: 'home.pressure',
-=======
-        name: 'steps',
-        path: '/steps',
-        component: () => import('@/views/list/steps/index.vue'),
-        meta: {
-          title: 'home.steps',
->>>>>>> origin/main
-          border: false,
+
+          name: 'steps',
+          path: '/steps',
+          component: () => import('@/views/list/steps/index.vue'),
+          meta: {
+            title: 'home.steps',
+
+            border: false,
+          },
         },
       },
       {
-<<<<<<< HEAD
+
         name: 'electricity',
         path: '/electricity',
         component: () => import('@/views/member/quick_start/electricity/index.vue'),
@@ -228,14 +230,15 @@ export const routes = [
         component: () => import('@/views/member/quick_start/keypad/index.vue'),
         meta: {
           title: 'home.pressure',
-=======
-        name: 'tools',
-        path: '/tools',
-        component: () => import('@/views/member/tools/index.vue'),
-        meta: {
-          title: 'home.tools',
->>>>>>> origin/main
-          border: false,
+
+          name: 'tools',
+          path: '/tools',
+          component: () => import('@/views/member/tools/index.vue'),
+          meta: {
+            title: 'home.tools',
+
+            border: false,
+          },
         },
       },
     ],

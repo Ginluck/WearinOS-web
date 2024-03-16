@@ -11,7 +11,7 @@ export const lang: langType = {
   language: {
     en: '英文',
     zh: '中文',
-   
+
   },
   introduction: '一个快速开发vue3的移动端模板',
   home: {
@@ -100,6 +100,17 @@ export const lang: langType = {
 
 
 
+  },
+
+
+  member: {
+    quick_start: {
+      appearance: '外观介绍',
+      electricity: '充电',
+      keypad: '按键以及屏幕控制',
+      sos: 'SOS紧急求助',
+      wear: '佩戴设备',
+    },
   },
   list: {
     details: '列表详情',

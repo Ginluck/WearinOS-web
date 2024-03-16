@@ -93,6 +93,17 @@ export type langType = {
 
 
   };
+
+  member: {
+    quick_start: {
+      appearance: string;
+      electricity: string;
+      keypad: string;
+      sos: string;
+      wear: string;
+    };
+  };
+
   list: {
     details: string;
   };

@@ -1,6 +1,6 @@
 <template>
 
-  <div class="gridmain">
+  <div class="gridmain3">
       <div class="Title">{{ $t('health.heart') }}</div>
       <div class="paratext">{{ $t('health.heart_te') }}</div>
     <div class="paratext">{{ $t('health.heart_te2') }}</div>
@@ -40,7 +40,7 @@
 </script>
 <style lang="scss">
 
-  .gridmain {
+  .gridmain3 {
     background: white;
     border-radius: 20px;
     margin-right: 30px;

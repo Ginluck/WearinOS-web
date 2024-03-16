@@ -49,10 +49,10 @@ export const lang: langType = {
     heart_te4:'Scope Example',
     heart_te5:'*The data is for reference only and cannot be used as a medical clinical diagnosis!',
     heart_te6:'Click on the heart rate card on the WearinOS homepage to view your heart rate data. Support viewing blood pressure data by day, week, month, and year.',
-    
-    
-    
-    
+
+
+
+
     sleep_title1:'Understanding Sleep Cards',
     sleep_desc1:'Sleep, one-third of a person\'s life is spent in sleep. Sleep is a necessity of life, and one cannot live without it. The quality of sleep plays a crucial role in human health',
     sleep_desc2:'From the examination results of the sleep monitor, it can be seen that normal people sometimes have no eye movement or only slow fluctuations during sleep, which is relatively long; But sometimes the eyeball moves back and forth quickly, which is relatively short. At the same time as the eyeball moves slowly or quickly, there are different changes in the electroencephalogram. Therefore, scientists divide sleep into two parts: non rapid eye movement sleep and rapid eye movement sleep. For convenience in writing, the first capital letter of the English abbreviation is used in literature. Non rapid eye movement sleep is written as NREM, while rapid eye movement sleep is written as REM. The basic rule of normal sleep is that normal adults enter NREM at the beginning of sleep, from shallow to deep, and after about 60-90 minutes, they switch to REM. The duration of REM is only about 10-15 minutes, and then it switches back to NREM. This cycle alternates between NREM and REM, appearing 4-6 times a night until they wake up.',
@@ -101,6 +101,15 @@ export const lang: langType = {
   },
   list: {
     details: 'list details',
+  },
+  member: {
+    quick_start: {
+      appearance: 'Appearance Introduction',
+      electricity: 'charge',
+      keypad: 'Key and screen control',
+      sos: 'SOS Emergency Help',
+      wear: 'Wearing equipment',
+    },
   },
   btn: {
     confirm: 'confirm',

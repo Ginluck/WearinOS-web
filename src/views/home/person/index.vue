@@ -1,9 +1,9 @@
 <template>
 
   <van-cell-group inset class="gridmain">
-    <van-cell to="/heart_rate" :title="$t('person.person_item1')" is-link />
-    <van-cell to="/sleep" :title="$t('person.person_item2')" is-link />
-    <van-cell to='/blood_oxgeon' :title="$t('person.person_item3')" is-link />
+    <van-cell to="/info" :title="$t('person.person_item1')" is-link />
+    <van-cell to="/feedback" :title="$t('person.person_item2')" is-link />
+    <van-cell to='/account' :title="$t('person.person_item3')" is-link />
   </van-cell-group>
   {{ getUserInfo }}
 </template>

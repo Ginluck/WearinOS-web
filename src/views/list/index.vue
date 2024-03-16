@@ -16,8 +16,8 @@
   </van-swipe>
   <nut-cell-group :title="$t('home.Usage')" class="supportList"> </nut-cell-group>
   <nut-grid class="gridmain" :gutter="5" :column-num="2">
-    <nut-grid-item :text="$t('home.sportstart')"><div :class="['grad1', locale]" /></nut-grid-item>
-    <nut-grid-item :text="$t('home.walk')"><div :class="['grad1', locale]" /></nut-grid-item>
+    <nut-grid-item to="/startsport" :text="$t('home.sportstart')"><div :class="['grad1', locale]" /></nut-grid-item>
+    <nut-grid-item to="/steps" :text="$t('home.walk')"><div :class="['grad1', locale]" /></nut-grid-item>
   </nut-grid>
 
   <nut-cell-group :title="$t('home.Guess')" class="supportList">

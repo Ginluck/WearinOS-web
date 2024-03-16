@@ -1,11 +1,11 @@
 <template>
 
   <div class="gridmain">
-      <div class="Title">{{ $t('person.person_item2') }}</div>
-      <div class="paratext">{{ $t('person.person_feed_desc1') }}</div>
-    <div class="paratext">{{ $t('person.person_feed_desc2') }}</div>
+      <div class="Title">{{ $t('list.sport_type') }}</div>
+      <div class="paratext">{{ $t('list.sport_type_desc') }}</div>
+      <div class="paratext_bot"></div>
 
-    <div class="paratext_bot"></div>
+      <div :class="['big-confirm', locale]"></div>
   </div>
 
 </template>
@@ -43,7 +43,9 @@
     margin-left: 30px;
     margin-top: 40px;
   }
-
+  .big-confirm {
+    @include main-lang-bg(100%, 1100px, '/@/assets/button', 'startsport.jpg');
+  }
   .Title {
     color: #1b1b1b;
     font-size: 40px;

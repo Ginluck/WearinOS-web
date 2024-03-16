@@ -112,10 +112,39 @@ export type langType = {
 
     person_info_desc1:string;
     person_info_desc2:string;
+
+
+    person_feed_desc1:string;
+    person_feed_desc2:string;
+
+    person_account_desc1:string;
+    person_account_desc2:string;
+    person_account_desc3:string;
   };
   list: {
     details: string;
+
+    sport_type:string;
+    sport_type_desc:string;
+
+    sport_record:string;
+    sport_record_desc1:string;
+    sport_record_desc2:string;
+    sport_record_desc3:string;
   };
+  evaluate:{
+    heart:string;
+    bo:string;
+    bs:string;
+    bp:string;
+    sleep:string;
+    meto:string;
+    pressure:string;
+    breathe:string;
+    female:string;
+
+  };
+
   btn: {
     confirm: string;
     cancel: string;

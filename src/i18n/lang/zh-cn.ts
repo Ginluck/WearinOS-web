@@ -120,14 +120,36 @@ export const lang: langType = {
     person_item3: '账号管理',
     person_info_desc1: '进入WearinOS App > 点击个人中心 > 点击个人资料 > 即可设置个人信息。',
     person_info_desc2: '在个人资料中，可以编辑您的头像、性别、昵称、身高、体重等个人信息',
+    person_account_desc1: '进入WearinOS App > 点击个人中心 > 点击设置 > 即可进入账号管理来管理您的账号',
+    person_account_desc2: '● WearinOS App记录的所有数据和个人资料都是以账号为载体保存的，若你更换手机，只需使用相同的账号登录APP，即可读取您所有的数据。',
+    person_feed_desc1: '● 进入WearinOS App > 点击个人中心 > 点击意见反馈 > 即可填写您要反馈的信息。',
+    person_feed_desc2: '● 可以选择问题的类型，写出您的反馈意见或上传反馈的图片，以便我们为您服务',
+    person_account_desc3: '● 在WearinOS App个人中心，点击设置进入账号中心，再点击退出登录来退出账号'
   },
 
 
   list: {
     details: '列表详情',
+    sport_type: '选择运动类型',
+    sport_type_desc: '在运动界面，为您提供了户外跑步、户外步行、室内跑步等六种运动类型，可以进行不同的运动',
+    sport_record: '查看运动记录',
+    sport_record_desc1: '运动完成后，在App中查看运动记录，查看运动时长、累计距离、消耗的卡路里等数据',
+    sport_record_desc2: '● 在首页页面点击运动记录卡片，进入运动记录界面，可以查看汇总的运动数据',
+    sport_record_desc3: '● 进入运动记录界面后，点击任意一个运动记录，可以查看单条运动记录对应的详细运动记录'
   },
   btn: {
     confirm: '确认',
     cancel: '取消',
   },
+  evaluate: {
+    heart: '心率测量',
+    bo: '血氧测量',
+    bs: '血糖测量',
+    bp: '血压测量',
+    sleep: '监测睡眠',
+    meto: '监测梅脱',
+    pressure: '监测压力',
+    breathe: '呼吸训练',
+    female: '女性助手'
+  }
 };

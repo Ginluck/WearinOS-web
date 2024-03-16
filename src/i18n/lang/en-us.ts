@@ -101,6 +101,12 @@ export const lang: langType = {
   },
   list: {
     details: 'list details',
+    sport_type: 'Select motion type',
+    sport_type_desc: 'In the sports interface, we provide you with six types of sports, including outdoor running, outdoor walking, and indoor running, allowing you to engage in different types of sports',
+    sport_record: 'View exercise records',
+    sport_record_desc1: 'After completing the exercise, view the exercise records in the app, including exercise duration, accumulated distance, calories burned, and other data',
+    sport_record_desc2: '● Click on the sports record card on the homepage to enter the sports record interface, where you can view the summarized sports data',
+    sport_record_desc3: '● After entering the motion recording interface, click on any motion record to view the detailed motion records corresponding to a single motion record'
   },
 
 
@@ -109,8 +115,13 @@ export const lang: langType = {
     person_item2: 'Feedback',
     person_item3: 'account management',
     person_info_desc1: 'Go to the WearinOS App, click on the personal center, click on profile, and then set your personal information.',
-    person_info_desc2: 'In your profile, you can edit your personal information such as profile picture, gender, nickname, height, weight, etc'
-
+    person_info_desc2: 'In your profile, you can edit your personal information such as profile picture, gender, nickname, height, weight, etc',
+    person_account_desc1: 'Go to the WearinOS App>click on Personal Center>click on Settings>to enter Account Management to manage your account',
+    person_account_desc2: '● All data and personal information recorded in the WearinOS app are saved using your account as a carrier. If you change your phone, simply log in to the app with the same account to access all your data. ',
+    person_feed_desc1: '● Go to the WearinOS App, click on Personal Center, click on Feedback, and you can fill in the information you want to provide feedback on',
+    person_feed_desc2: '● You can choose the type of question, write your feedback or upload feedback pictures so that we can serve you',
+    person_account_desc3: '● In the WearinOS App personal center, click on Settings to enter the account center, and then click on Exit Login to exit the account'
+  },
   member: {
     quick_start: {
       appearance: 'Appearance Introduction',

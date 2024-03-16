@@ -1,15 +1,18 @@
 <template>
 
   <div class="gridmain">
-      <div class="Title">{{ $t('health.bo_title1') }}</div>
-      <div class="paratext">{{ $t('health.bo_desc1') }}</div>
-    <div class="paratext">{{ $t('health.bo_desc2') }}</div>
+      <div class="Title">{{ $t('person.person_item1') }}</div>
+      <div class="paratext">{{ $t('person.person_info_desc1') }}</div>
+    <!-- <div class="paratext">{{ $t('health.bo_desc2') }}</div>
     <div class="Title_minor">{{ $t('health.bo_title2') }}</div>
     <div class="paratext">{{ $t('health.bo_desc3') }}</div>
 
     <div class="paratext_bot"></div>
     <div class="paratext">{{ $t('health.heart_te5') }}</div>
+    <div class="paratext_bot"></div> -->
+    <div class="paratext">{{ $t('person.person_info_desc2') }}</div>
     <div class="paratext_bot"></div>
+
   </div>
 
 </template>

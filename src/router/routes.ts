@@ -125,6 +125,33 @@ export const routes = [
         },
       },
       {
+        name: 'info',
+        path: '/info',
+        component: () => import('@/views/home/person/item/info/index.vue'),
+        meta: {
+          title: 'home.info',
+          border: false,
+        },
+      },
+      {
+        name: 'account',
+        path: '/account',
+        component: () => import('@/views/home/person/item/account/index.vue'),
+        meta: {
+          title: 'home.account',
+          border: false,
+        },
+      },
+      {
+        name: 'feedback',
+        path: '/feedback',
+        component: () => import('@/views/home/person/item/feedback/index.vue'),
+        meta: {
+          title: 'home.feedback',
+          border: false,
+        },
+      },
+      {
         name: 'pressure',
         path: '/pressure',
         component: () => import('@/views/home/health/item/pressure/index.vue'),
@@ -139,6 +166,33 @@ export const routes = [
         component: () => import('@/views/member/quick_start/index.vue'),
         meta: {
           title: 'home.pressure',
+          border: false,
+        },
+      },
+      {
+        name: 'startsport',
+        path: '/startsport',
+        component: () => import('@/views/list/startsport/index.vue'),
+        meta: {
+          title: 'home.startsport',
+          border: false,
+        },
+      },
+      {
+        name: 'steps',
+        path: '/steps',
+        component: () => import('@/views/list/steps/index.vue'),
+        meta: {
+          title: 'home.steps',
+          border: false,
+        },
+      },
+      {
+        name: 'tools',
+        path: '/tools',
+        component: () => import('@/views/member/tools/index.vue'),
+        meta: {
+          title: 'home.tools',
           border: false,
         },
       },

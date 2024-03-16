@@ -1,11 +1,12 @@
 <template>
 
   <div class="gridmain">
-      <div class="Title">{{ $t('person.person_item2') }}</div>
-      <div class="paratext">{{ $t('person.person_feed_desc1') }}</div>
-    <div class="paratext">{{ $t('person.person_feed_desc2') }}</div>
-
-    <div class="paratext_bot"></div>
+      <div class="Title">{{ $t('list.sport_record') }}</div>
+      <div class="paratext">{{ $t('list.sport_record_desc1') }}</div>
+      <div class="paratext_bot"></div>
+      <div class="paratext">{{ $t('list.sport_record_desc2') }}</div>
+      <div class="paratext">{{ $t('list.sport_record_desc3') }}</div>
+      <div class="paratext_bot"></div>
   </div>
 
 </template>
@@ -43,7 +44,6 @@
     margin-left: 30px;
     margin-top: 40px;
   }
-
   .Title {
     color: #1b1b1b;
     font-size: 40px;

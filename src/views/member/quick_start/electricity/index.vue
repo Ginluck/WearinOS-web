@@ -1,14 +1,18 @@
 <template>
 
-  <div class="gridmain">
-      <div class="Title">{{ $t('health.heart') }}</div>
-      <div class="paratext">{{ $t('health.heart_te') }}</div>
-    <div class="paratext">{{ $t('health.heart_te2') }}</div>
-    <div class="Title_minor">{{ $t('health.heart_te3') }}</div>
-    <div class="paratext">{{ $t('health.heart_te6') }}</div>
+  <div class="gridmain3">
+      <div class="Title">{{ $t('member.quick_start.electricity') }}</div>
+    <div class="Title_minor">{{ $t('member.quick_start.electricity1') }}</div>
+    <li class="paratext">{{ $t('member.quick_start.electricity2') }}</li>
+      <li class="paratext">{{ $t('member.quick_start.electricity3') }}</li>
+    <li class="paratext">{{ $t('member.quick_start.electricity4') }}</li>
+    <li class="paratext">{{ $t('member.quick_start.electricity5') }}</li>
+    <div class="Title_minor">{{ $t('member.quick_start.electricity6') }}</div>
+    <li class="paratext">{{ $t('member.quick_start.electricity7') }}</li>
+    <li class="paratext">{{ $t('member.quick_start.electricity8') }}</li>
+    <li class="paratext">{{ $t('member.quick_start.electricity9') }}</li>
+    <li class="paratext">{{ $t('member.quick_start.electricity10') }}</li>
 
-    <div class="paratext_bot"></div>
-    <div class="paratext">{{ $t('health.heart_te5') }}</div>
     <div class="paratext_bot"></div>
   </div>
 
@@ -40,7 +44,7 @@
 </script>
 <style lang="scss">
 
-  .gridmain {
+  .gridmain3 {
     background: white;
     border-radius: 20px;
     margin-right: 30px;

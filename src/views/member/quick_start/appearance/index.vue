@@ -1,15 +1,51 @@
 <template>
 
-  <div class="gridmain">
-      <div class="Title">{{ $t('health.heart') }}</div>
-      <div class="paratext">{{ $t('health.heart_te') }}</div>
-    <div class="paratext">{{ $t('health.heart_te2') }}</div>
-    <div class="Title_minor">{{ $t('health.heart_te3') }}</div>
-    <div class="paratext">{{ $t('health.heart_te6') }}</div>
+  <div class="gridmain3">
+    <div class="Title">{{ $t('member.quick_start.appearance') }}</div>
+    <div class="paratext">{{ $t('member.quick_start.appearance1') }}</div>
+    <div class="Title_minor">{{ $t('member.quick_start.appearance2') }}</div>
+    <div :class="['big-confirm2', locale]"></div>
+    <div class="Title_minor">{{ $t('member.quick_start.appearance3') }}</div>
+    <div :class="['big-confirm1', locale]"></div>
+    <div class="Title_minor">{{ $t('member.quick_start.appearance5') }}</div>
+      <table class="paratext_bot_table">
+        <tbody>
+        <tr>
+          <td colspan="1" rowspan="1" width="190" style="text-align: center;">
+            <span style="font-size: 14px;">序号</span>
+          </td>
+          <td colspan="1" rowspan="1" width="571" style="text-align: center;">
+            <span style="font-size: 14px;">说明</span>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1" rowspan="1" width="auto" style="text-align: center;">
+            <span style="color: rgb(89, 89, 89); font-size: 13px;">1</span>
+          </td>
+          <td colspan="1" rowspan="1" width="auto" style="text-align: center;"><span style="color: rgb(89, 89, 89); font-size: 13px;">上键</span>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1" rowspan="1" width="auto" style="text-align: center;"><span style="color: rgb(89, 89, 89); font-size: 13px;">2</span>
+          </td>
+          <td colspan="1" rowspan="1" width="auto" style="text-align: center;"><span style="color: rgb(89, 89, 89); font-size: 13px;">下键</span></td>
+        </tr>
+        <tr><td colspan="1" rowspan="1" width="auto" style="text-align: center;"><span style="color: rgb(89, 89, 89); font-size: 13px;">3</span></td>
+          <td colspan="1" rowspan="1" width="auto" style="text-align: center;"><span style="color: rgb(89, 89, 89); font-size: 13px;">扬声器</span></td>
+        </tr>
+        <tr><td colspan="1" rowspan="1" width="auto" style="text-align: center;"><span style="color: rgb(89, 89, 89); font-size: 13px;">4</span>
+        </td><td colspan="1" rowspan="1" width="auto" style="text-align: center;"><span style="color: rgb(89, 89, 89); font-size: 13px;">麦克风</span></td>
+        </tr>
+        <tr><td colspan="1" rowspan="1" width="auto" style="text-align: center;"><span style="color: rgb(89, 89, 89); font-size: 13px;">5</span></td>
+          <td colspan="1" rowspan="1" width="auto" style="text-align: center;"><span style="color: rgb(89, 89, 89); font-size: 13px;">监测单元区域</span></td>
+        </tr>
+        <tr><td colspan="1" rowspan="1" width="auto" style="text-align: center;"><span style="color: rgb(89, 89, 89); font-size: 13px;">6</span></td>
+          <td colspan="1" rowspan="1" width="auto" style="text-align: center;"><span style="color: rgb(89, 89, 89); font-size: 13px;">充电区域</span></td>
+        </tr>
+        </tbody>
+      </table>
+    <div class="paratext_bot"></div>
 
-    <div class="paratext_bot"></div>
-    <div class="paratext">{{ $t('health.heart_te5') }}</div>
-    <div class="paratext_bot"></div>
   </div>
 
 </template>
@@ -40,7 +76,7 @@
 </script>
 <style lang="scss">
 
-  .gridmain {
+  .gridmain3 {
     background: white;
     border-radius: 20px;
     margin-right: 30px;
@@ -74,5 +110,25 @@
   .paratext_bot {
     padding-bottom: 40px;
   }
+  .paratext_bot_table {
+    width: auto;
+    padding-bottom: 40px;
+    border-collapse: collapse;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    td{
+      min-width: 150px;
+      height: 50px;
+      border: 1px solid #ccc;
+    }
+  }
+  .big-confirm1 {
 
+    @include main-lang-bg(100%, 260px, '/@/assets/button', 'fang_wear.jpg');
+  }
+  .big-confirm2 {
+
+    @include main-lang-bg(100%, 290px, '/@/assets/button', 'rict_wear.jpg');
+  }
 </style>

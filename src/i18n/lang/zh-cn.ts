@@ -101,26 +101,67 @@ export const lang: langType = {
 
 
   },
-<<<<<<< HEAD
-
 
   member: {
     quick_start: {
       appearance: '外观介绍',
+      appearance1: '设备采用按压按键+旋转上键+彩色屏幕设计,集多种功能为一体,彩色大屏提供更大视野,旋转上键带来丝滑便捷的操作体验。',
+      appearance2: '圆屏',
+      appearance3: '方屏',
+      appearance4: '方屏',
+      appearance5: '设备外观说明',
+      appearance6: '序号',
+      appearance7: '说明',
+      appearance8: '上键',
+      appearance9: '下键',
+      appearance10: '扬声器',
+      appearance11: '监测单元区域',
+      appearance12: '充电区域',
       electricity: '充电',
-      keypad: '按键以及屏幕控制',
+      electricity1: '充电方式',
+      electricity2: '连接充电底座或充电线和电源适配器，然后将电源适配器接入电源插座。',
+      electricity3: '将设备放在充电座上。然后调整使设备背面贴合充电底座,直到充电提示出现在设备屏幕上。',
+      electricity4: '此时设备进入充电模式，无法操作屏幕。如果您需要操作，请按向上按钮进入设备的主屏幕。',
+      electricity5: '设备充满电后，充电指示显示100%，取下设备并拔掉电源适配器。',
+      electricity6: '查看电量的方式',
+      electricity7: '在主屏幕从上往下滑动，在下拉菜单中，可以查看电量百分比。',
+      electricity8: '设备在充电状态下，在充电指示界面查看电量百分比。',
+      electricity9: '在有显示电量的表盘中查看电量百分比。',
+      electricity10: '设备和WearinOS正常连接时，在WearinOS设备页中可以查看电量百分比。',
+      keypad: '屏幕控制',
+      keypad1: '设备采用彩色触摸屏幕，支持全屏触摸、上滑、下滑、长按、左滑、右滑等操作。',
+      keypad2: '屏幕基本手势',
+      keypad3: '操作',
+      keypad4: '功能',
+      keypad5: '单击',
+      keypad6: '选择确认',
+      keypad7: '长按',
+      keypad8: '设备显示表盘界面时，长按快捷更换表盘',
+      keypad9: '上滑',
+      keypad10: '查看消息通知（在表盘界面上滑）',
+      keypad11: '下滑',
+      keypad12: '查看快捷菜单（在表盘界面下滑）',
+      keypad13: '左右滑',
+      keypad14: '查看设备功能卡片',
+      keypad15: '右滑',
+      keypad16: '返回上一屏',
       sos: 'SOS紧急求助',
+      sos1: '长按旋转上键,在新的页面中选择SOS紧急求助,点击SOS紧急求助即可发出SOS声光求助',
       wear: '佩戴设备',
+      wear1: '请不要在设备背部贴膜或遮挡，设备背部有识别人体的传感器，一旦被遮挡或覆盖，将导致识别不准或者无法识别，进而导致心率、血氧、血压、压力、梅脱、睡眠等记录准确度降低或无法记录。',
+      wear2: '为保证测量的准确性，请避开骨节至少一指距离佩戴，保持表带松紧适度，在运动时请尽量偏紧佩戴。',
+      wear3: '注：设备采用专业健康材质，请放心佩戴。如果佩戴时感到皮肤不适，请停止佩戴并咨询医生。',
+      wear4: '如下图：',
+      wear0: '请确保设备的底部外壳清洁、干燥、无碎屑。然后，将监测单元区域放在手腕上，以保持舒适贴合的佩戴状态。：',
     },
   },
-=======
+
   person:{
     person_item1:'string',
     person_item2:'string',
     person_item3:'string',
   },
 
->>>>>>> origin/main
   list: {
     details: '列表详情',
   },

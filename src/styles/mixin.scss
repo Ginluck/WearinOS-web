@@ -1,6 +1,7 @@
 @mixin main-lang-bg($width, $height, $preUrl, $posUrl) {
   width: $width;
   height: $height;
+  max-width: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   @include loop-lang-bg($preUrl, $posUrl);

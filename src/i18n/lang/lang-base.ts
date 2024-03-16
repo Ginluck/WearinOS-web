@@ -94,24 +94,67 @@ export type langType = {
 
   };
 
-<<<<<<< HEAD
+
   member: {
     quick_start: {
       appearance: string;
+      appearance1: string;
+      appearance2: string;
+      appearance3: string;
+      appearance4: string;
+      appearance5: string;
+      appearance6: string;
+      appearance7: string;
+      appearance8: string;
+      appearance9: string;
+      appearance10: string;
+      appearance11: string;
+      appearance12: string;
       electricity: string;
+      electricity1: string;
+      electricity2: string;
+      electricity3: string;
+      electricity4: string;
+      electricity5: string;
+      electricity6: string;
+      electricity7: string;
+      electricity8: string;
+      electricity9: string;
+      electricity10: string;
       keypad: string;
+      keypad1: string;
+      keypad2: string;
+      keypad3: string;
+      keypad4: string;
+      keypad5: string;
+      keypad6: string;
+      keypad7: string;
+      keypad8: string;
+      keypad9: string;
+      keypad10: string;
+      keypad11: string;
+      keypad12: string;
+      keypad13: string;
+      keypad14: string;
+      keypad15: string;
+      keypad16: string;
       sos: string;
+      sos1: string;
       wear: string;
+      wear1: string;
+      wear2: string;
+      wear3: string;
+      wear4: string;
+      wear5: string;
     };
   };
 
-=======
   person:{
     person_item1:string;
     person_item2:string;
     person_item3:string;
   };
->>>>>>> origin/main
+
   list: {
     details: string;
   };

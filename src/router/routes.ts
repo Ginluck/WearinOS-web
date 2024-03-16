@@ -142,6 +142,51 @@ export const routes = [
           border: false,
         },
       },
+      {
+        name: 'appearance',
+        path: '/appearance',
+        component: () => import('@/views/member/quick_start/appearance/index.vue'),
+        meta: {
+          title: 'home.pressure',
+          border: false,
+        },
+      },
+      {
+        name: 'wear',
+        path: '/wear',
+        component: () => import('@/views/member/quick_start/wear/index.vue'),
+        meta: {
+          title: 'home.pressure',
+          border: false,
+        },
+      },
+      {
+        name: 'electricity',
+        path: '/electricity',
+        component: () => import('@/views/member/quick_start/electricity/index.vue'),
+        meta: {
+          title: 'home.pressure',
+          border: false,
+        },
+      },
+      {
+        name: 'sos',
+        path: '/sos',
+        component: () => import('@/views/member/quick_start/sos/index.vue'),
+        meta: {
+          title: 'home.pressure',
+          border: false,
+        },
+      },
+      {
+        name: 'keypad',
+        path: '/keypad',
+        component: () => import('@/views/member/quick_start/keypad/index.vue'),
+        meta: {
+          title: 'home.pressure',
+          border: false,
+        },
+      },
     ],
   },
   {

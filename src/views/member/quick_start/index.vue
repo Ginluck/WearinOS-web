@@ -1,11 +1,11 @@
 <template>
 
   <van-cell-group inset class="gridmain">
-    <van-cell to="/heart_rate" :title="$t('member.quick_start.appearance')" is-link />
-    <van-cell :title="$t('member.quick_start.wear')" is-link />
-    <van-cell :title="$t('member.quick_start.keypad')" is-link />
-    <van-cell :title="$t('member.quick_start.electricity')" is-link />
-    <van-cell :title="$t('member.quick_start.sos')" is-link />
+    <van-cell to="/appearance" :title="$t('member.quick_start.appearance')" is-link />
+    <van-cell to="/wear" :title="$t('member.quick_start.wear')" is-link />
+    <van-cell to="/keypad" :title="$t('member.quick_start.keypad')" is-link />
+    <van-cell  to="/electricity" :title="$t('member.quick_start.electricity')" is-link />
+    <van-cell  to="/sos" :title="$t('member.quick_start.sos')" is-link />
   </van-cell-group>
   {{ getUserInfo }}
 </template>
@@ -105,6 +105,7 @@
       color: #101010;
       border-radius: 20px;
       font-weight: bold;
+
       font-size: 20px;
       view {
         text-align: left;

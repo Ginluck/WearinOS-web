@@ -11,7 +11,7 @@ export const lang: langType = {
   language: {
     en: '英文',
     zh: '中文',
-   
+
   },
   introduction: '一个快速开发vue3的移动端模板',
   home: {
@@ -101,6 +101,19 @@ export const lang: langType = {
 
 
   },
+
+
+
+  member: {
+    quick_start: {
+      appearance: '外观介绍',
+      electricity: '充电',
+      keypad: '按键以及屏幕控制',
+      sos: 'SOS紧急求助',
+      wear: '佩戴设备',
+    },
+  },
+
   person:{
     person_item1: '设置个人信息',
     person_item2: '意见反馈',
@@ -108,6 +121,7 @@ export const lang: langType = {
     person_info_desc1: '进入WearinOS App > 点击个人中心 > 点击个人资料 > 即可设置个人信息。',
     person_info_desc2: '在个人资料中，可以编辑您的头像、性别、昵称、身高、体重等个人信息',
   },
+
 
   list: {
     details: '列表详情',

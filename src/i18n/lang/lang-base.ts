@@ -98,6 +98,10 @@ export type langType = {
     person_item1:string;
     person_item2:string;
     person_item3:string;
+
+
+    person_info_desc1:string;
+    person_info_desc2:string;
   };
   list: {
     details: string;

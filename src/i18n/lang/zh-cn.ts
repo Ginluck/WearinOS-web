@@ -102,9 +102,11 @@ export const lang: langType = {
 
   },
   person:{
-    person_item1:'string',
-    person_item2:'string',
-    person_item3:'string',
+    person_item1: '设置个人信息',
+    person_item2: '意见反馈',
+    person_item3: '账号管理',
+    person_info_desc1: '进入WearinOS App > 点击个人中心 > 点击个人资料 > 即可设置个人信息。',
+    person_info_desc2: '在个人资料中，可以编辑您的头像、性别、昵称、身高、体重等个人信息',
   },
 
   list: {

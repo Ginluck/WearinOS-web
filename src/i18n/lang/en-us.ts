@@ -102,6 +102,14 @@ export const lang: langType = {
   list: {
     details: 'list details',
   },
+
+  person:{
+    person_item1: 'Set personal information',
+    person_item2: 'Feedback',
+    person_item3: 'account management',
+    person_info_desc1: 'Go to the WearinOS App, click on the personal center, click on profile, and then set your personal information.',
+    person_info_desc2: 'In your profile, you can edit your personal information such as profile picture, gender, nickname, height, weight, etc'
+  },
   btn: {
     confirm: 'confirm',
     cancel: 'cancel',

@@ -17,7 +17,7 @@
 
   <div class="Title">{{ $t('home.Usage') }}</div>
   <nut-grid class="gridmain" :gutter="5" :column-num="2">
-    <nut-grid-item :text="$t('home.fast')"><div :class="['grad1', locale]" /></nut-grid-item>
+    <nut-grid-item to="/quick_start" :text="$t('home.fast')"><div :class="['grad1', locale]" /></nut-grid-item>
     <nut-grid-item :text="$t('home.tools')"><div :class="['grad1', locale]" /></nut-grid-item>
     <nut-grid-item :text="$t('home.health2')"><div :class="['grad1', locale]" /></nut-grid-item>
     <nut-grid-item :text="$t('home.sport')"><div :class="['grad1', locale]" /></nut-grid-item>

@@ -125,6 +125,15 @@ export const routes = [
           border: false,
         },
       },
+      {
+        name: 'quick_start',
+        path: '/quick_start',
+        component: () => import('@/views/member/quick_start/index.vue'),
+        meta: {
+          title: 'home.pressure',
+          border: false,
+        },
+      },
     ],
   },
   {

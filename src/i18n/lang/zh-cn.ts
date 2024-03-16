@@ -101,6 +101,12 @@ export const lang: langType = {
 
 
   },
+  person:{
+    person_item1:'string',
+    person_item2:'string',
+    person_item3:'string',
+  },
+
   list: {
     details: '列表详情',
   },

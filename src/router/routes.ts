@@ -21,6 +21,14 @@ export const routes = [
         },
       },
       {
+        path: 'person',
+        component: () => import('@/views/home/person/index.vue'),
+        meta: {
+          title: 'tabbar.person',
+          keepAlive: true,
+        },
+      },
+      {
         path: 'list',
         component: () => import('@/views/list/index.vue'),
         meta: {

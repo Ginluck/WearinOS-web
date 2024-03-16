@@ -94,6 +94,7 @@ export type langType = {
 
   };
 
+<<<<<<< HEAD
   member: {
     quick_start: {
       appearance: string;
@@ -104,6 +105,13 @@ export type langType = {
     };
   };
 
+=======
+  person:{
+    person_item1:string;
+    person_item2:string;
+    person_item3:string;
+  };
+>>>>>>> origin/main
   list: {
     details: string;
   };

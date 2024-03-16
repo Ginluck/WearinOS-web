@@ -19,7 +19,7 @@
   <nut-grid class="gridmain" :gutter="10" :column-num="2">
     <nut-grid-item to="/health" :text="$t('home.health')"><div :class="['grad1', locale]" /></nut-grid-item>
     <nut-grid-item url="http://app.wearinsoft.com:8003/heart/" :text="$t('home.the_heart')"><div :class="['grad1', locale]" /></nut-grid-item>
-    <nut-grid-item :text="$t('home.person')"><div :class="['grad1', locale]" /></nut-grid-item>
+    <nut-grid-item to='/person' :text="$t('home.person')"><div :class="['grad1', locale]" /></nut-grid-item>
   </nut-grid>
 
 

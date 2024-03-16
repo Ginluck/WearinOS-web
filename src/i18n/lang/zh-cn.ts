@@ -101,6 +101,7 @@ export const lang: langType = {
 
 
   },
+<<<<<<< HEAD
 
 
   member: {
@@ -112,6 +113,14 @@ export const lang: langType = {
       wear: '佩戴设备',
     },
   },
+=======
+  person:{
+    person_item1:'string',
+    person_item2:'string',
+    person_item3:'string',
+  },
+
+>>>>>>> origin/main
   list: {
     details: '列表详情',
   },

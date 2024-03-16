@@ -1,14 +1,15 @@
 <template>
 
   <van-cell-group inset class="gridmain">
-    <van-cell to="/heart_rate" :title="$t('health.heart')" is-link />
-    <van-cell :title="$t('health.sleep')" is-link />
-    <van-cell :title="$t('health.o2')" is-link />
-    <van-cell :title="$t('health.Blood')" is-link />
-    <van-cell :title="$t('health.sugar')" is-link />
-    <van-cell :title="$t('health.pressure')" is-link />
-    <van-cell :title="$t('health.Meto')" is-link />
-    <van-cell :title="$t('health.breathe')" is-link />
+    <van-cell to="/heart_rate" :title="$t('evaluate.heart')" is-link />
+    <van-cell :title="$t('evaluate.bo')" is-link />
+    <van-cell :title="$t('evaluate.bs')" is-link />
+    <van-cell :title="$t('evaluate.bp')" is-link />
+    <van-cell :title="$t('evaluate.sleep')" is-link />
+    <van-cell :title="$t('evaluate.pressure')" is-link />
+    <van-cell :title="$t('evaluate.meto')" is-link />
+    <van-cell :title="$t('evaluate.breathe')" is-link />
+    <van-cell :title="$t('evaluate.female')" is-link />
   </van-cell-group>
   {{ getUserInfo }}
 </template>

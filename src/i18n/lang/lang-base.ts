@@ -94,7 +94,10 @@ export type langType = {
 
   };
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
   member: {
     quick_start: {
       appearance: string;
@@ -153,11 +156,99 @@ export type langType = {
     person_item1:string;
     person_item2:string;
     person_item3:string;
-  };
 
+
+    person_info_desc1:string;
+    person_info_desc2:string;
+
+
+    person_feed_desc1:string;
+    person_feed_desc2:string;
+
+    person_account_desc1:string;
+    person_account_desc2:string;
+    person_account_desc3:string;
+  };
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/main
   list: {
     details: string;
+
+    sport_type:string;
+    sport_type_desc:string;
+
+    sport_record:string;
+    sport_record_desc1:string;
+    sport_record_desc2:string;
+    sport_record_desc3:string;
   };
+  evaluate:{
+    heart:string;
+    bo:string;
+    bs:string;
+    bp:string;
+    sleep:string;
+    meto:string;
+    pressure:string;
+    breathe:string;
+    female:string;
+
+
+    heart_desc:string;
+    heart_single_title:string;
+    heart_single_desc1:string;
+    heart_single_desc2:string;
+    heart_single_desc3:string;
+
+    bo_desc:string;
+    bo_title:string;
+    bo_test_desc1:string;
+    bo_test_desc2:string;
+    bo_test_desc3:string;
+
+    bp_desc:string;
+    bp_title:string;
+    bp_test_desc1:string;
+    bp_test_desc2:string;
+    bp_test_desc3:string;
+
+    bs_desc:string;
+    bs_title:string;
+    bs_test_desc1:string;
+    bs_test_desc2:string;
+    bs_test_desc3:string;
+
+    pressure_desc:string;
+    pressure_title:string;
+    pressure_test_desc1:string;
+    pressure_test_desc2:string;
+    pressure_test_desc3:string;
+
+    sleep_desc:string;
+    sleep_title:string;
+    sleep_test_desc1:string;
+    sleep_test_desc2:string;
+    sleep_test_desc3:string;
+
+    meto_desc:string;
+    meto_title:string;
+    meto_test_desc1:string;
+    meto_test_desc2:string;
+    meto_test_desc3:string;
+
+
+    breathe_desc:string;
+    breathe_title:string;
+    breathe_test_desc1:string;
+    breathe_test_desc2:string;
+    breathe_test_desc3:string;
+
+
+
+  };
+
   btn: {
     confirm: string;
     cancel: string;

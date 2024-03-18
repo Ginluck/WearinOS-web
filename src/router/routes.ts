@@ -207,7 +207,6 @@ export const routes = [
         component: () => import('@/views/list/steps/index.vue'),
         meta: {
           title: 'home.steps',
-
           border: false,
         },
       },

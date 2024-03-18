@@ -22,7 +22,7 @@
   const images = ['https://fastly.jsdelivr.net/npm/@vant/assets/apple-1.jpeg',
     'https://fastly.jsdelivr.net/npm/@vant/assets/apple-1.jpeg'];
   let cellList = ['vue3', 'vite', 'vue-router', 'axios', 'Pinia', 'vue-i18n', 'postcss-px-to-viewport', 'varlet / vant / nutUI', 'eruda'];
-  let id = this.$route.query.id
+  // let id = this.$route.query.id
   const userStore = useUserStore();
   const getUserInfo = computed(() => {
     const { name = '' } = userStore.getUserInfo || {};
@@ -30,7 +30,7 @@
   });
   onBeforeMount(() => {
     console.log('----created----')
-    let id = this.$route.query.id
+    // let id = this.$route.query.id
 
 
 

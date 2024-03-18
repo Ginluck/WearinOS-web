@@ -44,7 +44,7 @@
     margin-top: 40px;
   }
   .big-confirm {
-    @include main-lang-bg(100%, 1100px, '/@/assets/button', 'startsport.jpg');
+    @include main-lang-bg(100%, 1500px, '/@/assets/button', 'startsport.jpg');
   }
   .Title {
     color: #1b1b1b;

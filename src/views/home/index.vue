@@ -46,12 +46,12 @@
 </template>
 
 <script lang="ts" setup name="HomePage">
-  import { computed } from 'vue';
+import {computed, onBeforeMount, onMounted} from 'vue';
   import { useUserStore } from '@/store/modules/user';
   import { setLang } from '@/i18n';
   import { useI18n } from 'vue-i18n';
   import { Github, Check } from '@nutui/icons-vue';
-
+  const route = useRoute();
   const { locale } = useI18n();
   const images = ['https://fastly.jsdelivr.net/npm/@vant/assets/apple-1.jpeg',
     'https://fastly.jsdelivr.net/npm/@vant/assets/apple-1.jpeg'];
@@ -61,12 +61,23 @@
     const { name = '' } = userStore.getUserInfo || {};
     return name;
   });
+  const locale_te = route.query.locale
+  const device_te = route.query.device
+  const type_te   = route.query.type
+  onMounted(() => {
+   console.log(locale_te)
+
+    changeLang(locale_te)
+
+
+  });
   const changeLang1 = (type) => {
     console.log(type);
   };
   const changeLang = (type) => {
     setLang(type);
   };
+
 </script>
 <style lang="scss">
   .header {

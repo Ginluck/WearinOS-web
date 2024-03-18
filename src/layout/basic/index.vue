@@ -26,12 +26,15 @@
   ];
 
   const router = useRouter();
-
+  const route = useRoute();
   const activeTab = ref(0);
 
   const tabbarVisible = ref(true);
 
   const showBorder = ref(true);
+  const locale = route.query.locale
+  const device = route.query.device
+  const type   = route.query.type
 
   watch(
     () => router,
@@ -47,13 +50,13 @@
   const tabSwitch = (_item, index) => {
     switch (index) {
       case 0:
-        router.push('/home');
+        router.push({ path: '/home', query: { locale: locale ,device: device,type: type} })
         break;
       case 1:
-        router.push('/list');
+        router.push({ path: '/list', query: { locale: locale ,device: device,type: type} });
         break;
       case 2:
-        router.push('/member');
+        router.push({ path: '/member', query: { locale: locale ,device: device,type: type} });
         break;
       case 3:
         router.push('/demo');

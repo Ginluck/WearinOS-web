@@ -176,7 +176,10 @@ export const routes = [
         component: () => import('@/views/member/quick_start/appearance/index.vue'),
         meta: {
           title: 'home.pressure',
-
+          border: false,
+        },
+      },
+      {
         name: 'startsport',
         path: '/startsport',
         component: () => import('@/views/list/startsport/index.vue'),
@@ -186,7 +189,6 @@ export const routes = [
           border: false,
         },
       },
-      },
       {
 
         name: 'wear',
@@ -195,14 +197,17 @@ export const routes = [
         meta: {
           title: 'home.pressure',
 
-          name: 'steps',
-          path: '/steps',
-          component: () => import('@/views/list/steps/index.vue'),
-          meta: {
-            title: 'home.steps',
+          border: false,
+        },
+      },
+      {
+        name: 'steps',
+        path: '/steps',
+        component: () => import('@/views/list/steps/index.vue'),
+        meta: {
+          title: 'home.steps',
 
-            border: false,
-          },
+          border: false,
         },
       },
       {
@@ -230,15 +235,17 @@ export const routes = [
         component: () => import('@/views/member/quick_start/keypad/index.vue'),
         meta: {
           title: 'home.pressure',
+          border: false,
+        },
+      },
+      {
+        name: 'tools',
+        path: '/tools',
+        component: () => import('@/views/member/tools/index.vue'),
+        meta: {
+          title: 'home.tools',
 
-          name: 'tools',
-          path: '/tools',
-          component: () => import('@/views/member/tools/index.vue'),
-          meta: {
-            title: 'home.tools',
-
-            border: false,
-          },
+          border: false,
         },
       },
     ],

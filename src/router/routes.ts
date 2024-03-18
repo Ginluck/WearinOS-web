@@ -189,14 +189,6 @@ export const routes = [
           border: false,
         },
       },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/main
-=======
-      
->>>>>>> origin/main
       {
 
         name: 'wear',

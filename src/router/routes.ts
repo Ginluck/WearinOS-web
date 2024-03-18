@@ -189,10 +189,7 @@ export const routes = [
           border: false,
         },
       },
-<<<<<<< HEAD
-=======
       
->>>>>>> origin/main
       {
 
         name: 'wear',
@@ -239,7 +236,6 @@ export const routes = [
         component: () => import('@/views/member/quick_start/keypad/index.vue'),
         meta: {
           title: 'home.pressure',
-<<<<<<< HEAD
           border: false,
         },
       },
@@ -251,7 +247,6 @@ export const routes = [
           title: 'home.tools',
 
           border: false,
-=======
         }
       },
       {
@@ -263,7 +258,6 @@ export const routes = [
 
             border: false,
           },
->>>>>>> origin/main
         },
     ],
   },

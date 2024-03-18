@@ -176,7 +176,10 @@ export const routes = [
         component: () => import('@/views/member/quick_start/appearance/index.vue'),
         meta: {
           title: 'home.pressure',
-
+          border: false,
+        },
+      },
+      {
         name: 'startsport',
         path: '/startsport',
         component: () => import('@/views/list/startsport/index.vue'),
@@ -186,7 +189,7 @@ export const routes = [
           border: false,
         },
       },
-      },
+      
       {
 
         name: 'wear',
@@ -230,7 +233,9 @@ export const routes = [
         component: () => import('@/views/member/quick_start/keypad/index.vue'),
         meta: {
           title: 'home.pressure',
-
+        }
+      },
+      {
           name: 'tools',
           path: '/tools',
           component: () => import('@/views/member/tools/index.vue'),
@@ -240,7 +245,6 @@ export const routes = [
             border: false,
           },
         },
-      },
     ],
   },
   {

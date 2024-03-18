@@ -1,0 +1,9 @@
+diff a/src/router/routes.ts b/src/router/routes.ts	(rejected hunks)
+@@ -207,7 +207,6 @@
+         component: () => import('@/views/list/steps/index.vue'),
+         meta: {
+           title: 'home.steps',
+-
+           border: false,
+         },
+       },

@@ -287,5 +287,44 @@ export const lang: langType = {
     question8: 'Why device message notifications cannot be received',
     question9: 'Phone connected to Bluetooth, device has no sound',
     question10: 'Why is the watch time not accurate',
+
+    answer1_1: 'Check if the device is connected to the app normally. You can use the device search function in the device to determine if there is any abnormal connection. If there is any problem, please pair and connect again',
+    answer1_2: 'Check if the watch time matches the phone, if not, delete the device and reconnect',
+    answer1_3: 'If the above exception does not occur, you can perform a dropdown refresh operation on the App homepage and try to resynchronize',
+
+    answer2_1: 'The other party is not wearing a watch or using the app',
+    answer2_2: 'The other party\'s device is not connected to the network or the network is poor',
+    answer2_3: 'The other party did not authorize you to view their health information',
+
+    answer3_1: 'Check if the app is connected to the device. If not, please connect the device first',
+    answer3_2: 'Check if the car app is connected to the device normally. If there is any abnormal connection, please try reconnecting the device',
+
+    answer4_1: 'The trajectory information of the exercise process is obtained through satellite positioning information on mobile phones or wearable devices. If there are problems such as trajectory loss or drift, it may be due to weak positioning signals. It is recommended to go to open areas when engaging in outdoor activities',
+    answer4_2_A: 'Andoid users',
+    answer4_2_1: 'Set the save point policy of the app to unlimited',
+    answer4_2_2: 'Change the location permission of the app to always allow',
+    answer4_2_3: 'Lock the app in the background',
+    answer4_2_I: 'IOS users',
+    answer4_2_4: 'Turn off power-saving mode',
+    answer4_2_5: 'Change the location permission of the app to "always"',
+    answer4_2_6: 'Refresh and open the background of the app',
+
+    answer5_1: 'The distance results in the motion report are based on location information acquisition or step estimation, which may have some errors. It is recommended to go to open areas during motion.',
+
+    answer6_1: 'Please check if the device is connected to another device. You can slide down the device screen and check the connection icon above. If there is a connection, you can try clearing the pairing information on the device, turning on and off Bluetooth on the phone, and pairing again',
+    answer6_2: 'IOS users can check if the device has not been ignored in the system settings. If it does, please click on the "i" icon of the device to ignore it',
+
+    answer7_1: 'After connection, it shows unpaired or the dial is not displayed, which may be caused by abnormal device connection. Please try restarting the app first to see if it can improve the situation',
+    answer7_2: 'If restarting the app still does not improve, please delete the device on the device page. Android users can try to switch Bluetooth on and off again on their mobile phone; IOS users ignore the device in Bluetooth system settings and reconnect',
+
+    answer8_1: 'Please confirm if the app is connected to the device properly first',
+    answer8_2: 'Confirm whether the message notification permission of the app is enabled',
+    answer8_3: 'Confirm whether the app has enabled background protection function. If it is not enabled, it may not receive message notifications if the background process is closed',
+    answer8_4: 'Please find the connected device in the Bluetooth system settings, click on the "i" icon, and check if the shared system notification is turned on',
+
+    answer9_1: 'Please confirm if the app is properly connected to the device',
+    answer9_2: 'Please confirm if the audio Bluetooth of the device is connected to the device. iOS users can find the connected device in the system settings Bluetooth, click on the "i" icon, and check if there is a device type option. If it does not appear, it means that the audio Bluetooth of the device is not connected. Please try matching the link again',
+
+    answer10_1: 'After the device successfully connects to the app, the time will be automatically synchronized. If the time display is still incorrect, it is recommended to restart the device and app before reconnecting',
   }
 };

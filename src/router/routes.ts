@@ -552,6 +552,106 @@ export const routes = [
             border: false,
           },
         },
+        {
+          name: 'ques1',
+          path: '/ques1',
+          component: () => import('@/views/home/ques/ques1/index.vue'),
+          meta: {
+            title: 'home.ques1',
+
+            border: false,
+          },
+        },
+        {
+          name: 'ques2',
+          path: '/ques2',
+          component: () => import('@/views/home/ques/ques2/index.vue'),
+          meta: {
+            title: 'home.ques2',
+
+            border: false,
+          },
+        },
+        {
+          name: 'ques3',
+          path: '/ques3',
+          component: () => import('@/views/list/ques/ques3/index.vue'),
+          meta: {
+            title: 'home.ques3',
+
+            border: false,
+          },
+        },
+        {
+          name: 'ques4',
+          path: '/ques4',
+          component: () => import('@/views/list/ques/ques4/index.vue'),
+          meta: {
+            title: 'home.ques4',
+
+            border: false,
+          },
+        },
+        {
+          name: 'ques5',
+          path: '/ques5',
+          component: () => import('@/views/list/ques/ques5/index.vue'),
+          meta: {
+            title: 'home.ques5',
+
+            border: false,
+          },
+        },
+        {
+          name: 'ques6',
+          path: '/ques6',
+          component: () => import('@/views/home/ques/ques6/index.vue'),
+          meta: {
+            title: 'home.ques6',
+
+            border: false,
+          },
+        },
+        {
+          name: 'ques7',
+          path: '/ques7',
+          component: () => import('@/views/member/ques/ques7/index.vue'),
+          meta: {
+            title: 'home.ques7',
+
+            border: false,
+          },
+        },
+        {
+          name: 'ques8',
+          path: '/ques8',
+          component: () => import('@/views/member/ques/ques8/index.vue'),
+          meta: {
+            title: 'home.ques8',
+
+            border: false,
+          },
+        },
+        {
+          name: 'ques9',
+          path: '/ques9',
+          component: () => import('@/views/member/ques/ques9/index.vue'),
+          meta: {
+            title: 'home.ques9',
+
+            border: false,
+          },
+        },
+        {
+          name: 'ques10',
+          path: '/ques10',
+          component: () => import('@/views/member/ques/ques10/index.vue'),
+          meta: {
+            title: 'home.ques10',
+
+            border: false,
+          },
+        },
         
     ],
   },

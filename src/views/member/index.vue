@@ -26,10 +26,10 @@
 
   <div class="Title">{{ $t('home.Guess') }}</div>
   <nut-grid class="gridmain2" :center="false" :gutter="0" :column-num="1">
-    <nut-grid-item :text="$t('questions.question7')"></nut-grid-item>
-    <nut-grid-item :text="$t('questions.question8')"></nut-grid-item>
-    <nut-grid-item :text="$t('questions.question9')"></nut-grid-item>
-    <nut-grid-item :text="$t('questions.question10')"></nut-grid-item>
+    <nut-grid-item to="/ques7" :text="$t('questions.question7')"></nut-grid-item>
+    <nut-grid-item to="/ques8" :text="$t('questions.question8')"></nut-grid-item>
+    <nut-grid-item to="/ques9" :text="$t('questions.question9')"></nut-grid-item>
+    <nut-grid-item to="/ques10" :text="$t('questions.question10')"></nut-grid-item>
   </nut-grid>
   <!--  <nut-cell-group :title="$t('home.cssMultiLanguage')" class="supportList">
       <nut-cell>

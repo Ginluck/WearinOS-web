@@ -25,9 +25,9 @@
 
   <div class="Title">{{ $t('home.Guess') }}</div>
   <nut-grid class="gridmain2" :center="false" :gutter="0" :column-num="1">
-    <nut-grid-item :text="$t('questions.question6')"></nut-grid-item>
-    <nut-grid-item :text="$t('questions.question1')"></nut-grid-item>
-    <nut-grid-item :text="$t('questions.question2')"></nut-grid-item>
+    <nut-grid-item to="/ques6" :text="$t('questions.question6')"></nut-grid-item>
+    <nut-grid-item to="/ques1" :text="$t('questions.question1')"></nut-grid-item>
+    <nut-grid-item to="/ques2" :text="$t('questions.question2')"></nut-grid-item>
   </nut-grid>
  <nut-cell-group :title="$t('home.cssMultiLanguage')" class="supportList">
     <nut-cell>

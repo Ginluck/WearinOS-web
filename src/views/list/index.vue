@@ -23,9 +23,9 @@
   <nut-cell-group :title="$t('home.Guess')" class="supportList">
   </nut-cell-group>
   <nut-grid class="gridmain2" :center="false" :gutter="0" :column-num="1">
-    <nut-grid-item to="/health" :text="$t('questions.question3')"></nut-grid-item>
-    <nut-grid-item :text="$t('questions.question4')"></nut-grid-item>
-    <nut-grid-item :text="$t('questions.question5')"></nut-grid-item>
+    <nut-grid-item to="/ques3" :text="$t('questions.question3')"></nut-grid-item>
+    <nut-grid-item to="/ques4" :text="$t('questions.question4')"></nut-grid-item>
+    <nut-grid-item to="/ques5" :text="$t('questions.question5')"></nut-grid-item>
   </nut-grid>
   <!--  <nut-cell-group :title="$t('home.cssMultiLanguage')" class="supportList">
       <nut-cell>

@@ -1,17 +1,11 @@
 <template>
 
-
-<div class="gridmain">
-  <div class="Title">{{ $t('tools.clock') }}</div>
-  <div class="paratext">{{ $t('tools.clock_desc1') }}</div>
-    <div class="paratext_bot"></div>
-    <div class="Title_minor">{{ $t('tools.clock_title1') }}</div>
-    <li class="paratext">{{ $t('tools.clock_desc2') }}</li>
-    <li class="paratext">{{ $t('tools.clock_desc3') }}</li>
-    <div class="paratext_bot"></div>
-    <div class="Title_minor">{{ $t('tools.clock_title2') }}</div>
-    <li class="paratext">{{ $t('tools.clock_desc4') }}</li>
-    <div class="paratext_bot"></div>
+  <div class="gridmain">
+      <div class="Title">{{ $t('questions.question2') }}</div>
+      <div class="paratext_bot"></div>
+      <li class="paratext">{{ $t('questions.answer2_1') }}</li>
+      <li class="paratext">{{ $t('questions.answer2_2') }}</li>
+      <li class="paratext">{{ $t('questions.answer2_3') }}</li>
   </div>
 
 </template>
@@ -68,13 +62,6 @@
   }
   .paratext {
     color: #727272;
-    font-size: 26px;
-    padding-right: 26px;
-    padding-left: 26px;
-    padding-top: 20px;
-  }
-  .paratext2 {
-    color: #a19f9f;
     font-size: 26px;
     padding-right: 26px;
     padding-left: 26px;

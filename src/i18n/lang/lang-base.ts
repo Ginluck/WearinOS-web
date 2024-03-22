@@ -94,61 +94,13 @@ export type langType = {
 
   };
 
-
-
-
-
   member: {
     quick_start: {
       appearance: string;
-      appearance1: string;
-      appearance2: string;
-      appearance3: string;
-      appearance4: string;
-      appearance5: string;
-      appearance6: string;
-      appearance7: string;
-      appearance8: string;
-      appearance9: string;
-      appearance10: string;
-      appearance11: string;
-      appearance12: string;
       electricity: string;
-      electricity1: string;
-      electricity2: string;
-      electricity3: string;
-      electricity4: string;
-      electricity5: string;
-      electricity6: string;
-      electricity7: string;
-      electricity8: string;
-      electricity9: string;
-      electricity10: string;
       keypad: string;
-      keypad1: string;
-      keypad2: string;
-      keypad3: string;
-      keypad4: string;
-      keypad5: string;
-      keypad6: string;
-      keypad7: string;
-      keypad8: string;
-      keypad9: string;
-      keypad10: string;
-      keypad11: string;
-      keypad12: string;
-      keypad13: string;
-      keypad14: string;
-      keypad15: string;
-      keypad16: string;
       sos: string;
-      sos1: string;
       wear: string;
-      wear1: string;
-      wear2: string;
-      wear3: string;
-      wear4: string;
-      wear5: string;
     };
   };
 
@@ -169,10 +121,6 @@ export type langType = {
     person_account_desc2:string;
     person_account_desc3:string;
   };
-
-
-
-
   list: {
     details: string;
 
@@ -240,15 +188,176 @@ export type langType = {
 
 
     breathe_desc:string;
-    breathe_title:string;
-    breathe_test_desc1:string;
-    breathe_test_desc2:string;
-    breathe_test_desc3:string;
 
+  };
+
+  tools:{
+    tell: string;
+    music_control: string;
+    camera: string;
+    clock: string;
+    second_clock: string;
+    time_manager: string;
+    find_phone: string;
+    cash_card: string;
+    card: string;
+    note: string;
+    health_remind: string;
+    speech: string;
+    car_code: string;
+
+    music_title:string;
+    music_desc:string;
+
+    camera_desc1:string;
+    camera_desc2:string;
+
+    clock_desc1:string;
+    clock_title1:string;
+    clock_desc2:string;
+    clock_desc3:string;
+    clock_title2:string;
+    clock_desc4:string;
+
+    second_desc1:string;
+    second_title:string;
+    second_desc2:string;
+
+    find_desc1:string;
+    find_desc2:string;
+    find_desc3:string;
+
+    cash_desc1:string;
+    cash_title:string;
+    cash_desc2:string;
+    cash_desc3:string;
+
+    card_desc1:string;
+    card_title:string;
+    card_desc2:string;
+    card_desc3:string;
+
+    note_desc1:string;
+    note_title:string;
+    note_desc2:string;
+    note_desc3:string;
+
+    health_desc1:string;
+    health_title:string;
+    health_desc2:string;
+    health_desc3:string;
+
+    time_desc1:string;
+    time_title:string;
+    time_desc2:string;
+    time_desc3:string;
 
 
   };
 
+  sport:{
+    sport_title:string;
+    sport_desc1:string;
+    sport_title1:string;
+    sport_desc2:string;
+    sport_desc3:string;
+    sport_desc4:string;
+
+
+  };
+  others:{
+    lock:string;
+    info:string;
+    ota:string;
+    language:string;
+    light:string;
+    reset:string;
+
+    info_mac_title:string;
+    info_mac_desc:string;
+    info_ble_title:string;
+    info_ble_desc1:string;
+    info_ble_desc2:string;
+    info_version_title:string;
+    info_version_desc1:string;
+    info_version_desc2:string;
+
+    lock_desc:string;
+    lock_set_title:string;
+    lock_set_desc:string;
+    lock_unlock_title:string;
+    lock_unlock_desc:string;
+
+    ota_desc:string;
+    ota_desc1:string;
+    ota_desc2:string;
+
+    lan_desc1:string;
+    lan_desc2:string;
+
+    light_desc1:string;
+
+    reset_title1:string;
+    reset_title2:string;
+    reset_title3:string;
+    reset_start_desc:string;
+    reset_close_desc1:string;
+    reset_close_desc2:string;
+    reset_desc1:string;
+    reset_desc2:string;
+
+  };
+  questions:{
+    question1:string;
+    answer1_1:string;
+    answer1_2:string;
+    answer1_3:string;
+
+    question2:string;
+    answer2_1:string;
+    answer2_2:string;
+    answer2_3:string;
+
+    question3:string;
+    answer3_1:string;
+    answer3_2:string;
+
+    question4:string;
+    answer4_1:string;
+    answer4_2_A:string;
+    answer4_2_I:string;
+    answer4_2_1:string;
+    answer4_2_2:string;
+    answer4_2_3:string;
+    answer4_2_4:string;
+    answer4_2_5:string;
+    answer4_2_6:string;
+
+    question5:string;
+    answer5_1:string;
+
+    question6:string;
+    answer6_1:string;
+    answer6_2:string;
+
+    question7:string;
+    answer7_1:string;
+    answer7_2:string;
+
+    question8:string;
+    answer8_1:string;
+    answer8_2:string;
+    answer8_3:string;
+    answer8_4:string;
+
+    question9:string;
+    answer9_1:string;
+    answer9_2:string;
+
+    question10:string;
+    answer10_1:string;
+
+  };
   btn: {
     confirm: string;
     cancel: string;

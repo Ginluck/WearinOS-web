@@ -2,15 +2,14 @@
 
 
 <div class="gridmain">
-    <div class="Title">{{ $t('evaluate.bo') }}</div>
-    <div class="paratext">{{ $t('evaluate.bo_desc') }}</div>
-    <div class="Title_minor">{{ $t('evaluate.bo_title') }}</div>
-    <li class="paratext">{{ $t('evaluate.bo_test_desc1') }}</li>
-    <li class="paratext">{{ $t('evaluate.bo_test_desc2') }}</li>
-    <li class="paratext">{{ $t('evaluate.bo_test_desc3') }}</li>
+    <div class="Title">{{ $t('others.ota') }}</div>
+    <div class="paratext">{{ $t('others.ota_desc') }}</div>
     <div class="paratext_bot"></div>
-    <div class="paratext2">{{ $t('health.heart_te5') }}</div>
+
+    <li class="paratext">{{ $t('others.ota_desc1') }}</li>
+    <li class="paratext">{{ $t('others.ota_desc2') }}</li>
     <div class="paratext_bot"></div>
+
   </div>
 
 </template>

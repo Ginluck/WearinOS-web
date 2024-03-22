@@ -18,17 +18,18 @@
   <div class="Title">{{ $t('home.Usage') }}</div>
   <nut-grid class="gridmain" :gutter="5" :column-num="2">
     <nut-grid-item to="/quick_start" :text="$t('home.fast')"><div :class="['grad1', locale]" /></nut-grid-item>
-    <nut-grid-item to="/tools" :text="$t('home.tools')"><div :class="['grad1', locale]" /></nut-grid-item>
+    <nut-grid-item to="/healthy" :text="$t('home.tools')"><div :class="['grad1', locale]" /></nut-grid-item>
     <nut-grid-item to="/tools" :text="$t('home.health2')"><div :class="['grad1', locale]" /></nut-grid-item>
-    <nut-grid-item :text="$t('home.sport')"><div :class="['grad1', locale]" /></nut-grid-item>
-    <nut-grid-item :text="$t('home.other')"><div :class="['grad1', locale]" /></nut-grid-item>
+    <nut-grid-item to="/sport" :text="$t('home.sport')"><div :class="['grad1', locale]" /></nut-grid-item>
+    <nut-grid-item to="/others" :text="$t('home.other')"><div :class="['grad1', locale]" /></nut-grid-item>
   </nut-grid>
 
   <div class="Title">{{ $t('home.Guess') }}</div>
   <nut-grid class="gridmain2" :center="false" :gutter="0" :column-num="1">
-    <nut-grid-item :text="$t('home.health')"></nut-grid-item>
-    <nut-grid-item :text="$t('home.the_heart')"></nut-grid-item>
-    <nut-grid-item :text="$t('home.person')"></nut-grid-item>
+    <nut-grid-item :text="$t('questions.question7')"></nut-grid-item>
+    <nut-grid-item :text="$t('questions.question8')"></nut-grid-item>
+    <nut-grid-item :text="$t('questions.question9')"></nut-grid-item>
+    <nut-grid-item :text="$t('questions.question10')"></nut-grid-item>
   </nut-grid>
   <!--  <nut-cell-group :title="$t('home.cssMultiLanguage')" class="supportList">
       <nut-cell>

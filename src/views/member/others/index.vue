@@ -1,36 +1,12 @@
 <template>
 
-
-<!-- tools:{
-    tell: string;
-    music_control: string;
-    camera: string;
-    clock: string;
-    second_clock: string;
-    time_manager: string;
-    find_phone: string;
-    cash_card: string;
-    card: string;
-    note: string;
-    health_remind: string;
-    speech: string;
-    car_code: string;
-
-  }; -->
-
-
   <van-cell-group inset class="gridmain">
-    <van-cell to="/music" :title="$t('tools.music_control')" is-link />
-    <van-cell to="/camera" :title="$t('tools.camera')" is-link />
-    <van-cell to="/clock" :title="$t('tools.clock')" is-link />
-    <van-cell to="/second" :title="$t('tools.second_clock')" is-link />
-    <van-cell to="/time" :title="$t('tools.time_manager')" is-link />
-    <van-cell to="/find_phone" :title="$t('tools.find_phone')" is-link />
-    <van-cell to="/cash" :title="$t('tools.cash_card')" is-link />
-    <van-cell to="/card" :title="$t('tools.card')" is-link />
-    <van-cell to="/note" :title="$t('tools.note')" is-link />
-    <van-cell to="/health_remind" :title="$t('tools.health_remind')" is-link />
-    <van-cell to="/car" :title="$t('tools.car_code')" is-link />
+    <van-cell to="/info" :title="$t('others.info')" is-link />
+    <van-cell to="/lock" :title="$t('others.lock')" is-link />
+    <van-cell to="/ota" :title="$t('others.ota')" is-link />
+    <van-cell to="/lan" :title="$t('others.language')" is-link />
+    <van-cell to="/light" :title="$t('others.light')" is-link />
+    <van-cell to="/reset" :title="$t('others.reset')" is-link />
   </van-cell-group>
   {{ getUserInfo }}
 </template>

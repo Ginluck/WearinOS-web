@@ -190,6 +190,16 @@ export const routes = [
         },
       },
       {
+        name: 'sport',
+        path: '/sport',
+        component: () => import('@/views/member/sport/index.vue'),
+        meta: {
+          title: 'home.sport',
+
+          border: false,
+        },
+      },
+      {
 
         name: 'wear',
         path: '/wear',
@@ -249,15 +259,300 @@ export const routes = [
         }
       },
       {
-          name: 'tools',
-          path: '/tools',
-          component: () => import('@/views/member/tools/index.vue'),
+          name: 'healthy',
+          path: '/healthy',
+          component: () => import('@/views/member/health/index.vue'),
           meta: {
             title: 'home.tools',
 
             border: false,
           },
         },
+
+
+
+        {
+          name: 'ev_heart',
+          path: '/ev_heart',
+          component: () => import('@/views/member/tools/item/heart/index.vue'),
+          meta: {
+            title: 'home.ev_heart',
+
+            border: false,
+          },
+        },
+        {
+          name: 'ev_bo',
+          path: '/ev_bo',
+          component: () => import('@/views/member/tools/item/bo/index.vue'),
+          meta: {
+            title: 'home.ev_bo',
+
+            border: false,
+          },
+        },
+        {
+          name: 'ev_bp',
+          path: '/ev_bp',
+          component: () => import('@/views/member/tools/item/bp/index.vue'),
+          meta: {
+            title: 'home.ev_bp',
+
+            border: false,
+          },
+        },
+        {
+          name: 'ev_bs',
+          path: '/ev_bs',
+          component: () => import('@/views/member/tools/item/bs/index.vue'),
+          meta: {
+            title: 'home.ev_bs',
+
+            border: false,
+          },
+        },
+        {
+          name: 'ev_sleep',
+          path: '/ev_sleep',
+          component: () => import('@/views/member/tools/item/sleep/index.vue'),
+          meta: {
+            title: 'home.ev_sleep',
+
+            border: false,
+          },
+        },
+        {
+          name: 'ev_breathe',
+          path: '/ev_breathe',
+          component: () => import('@/views/member/tools/item/breathe/index.vue'),
+          meta: {
+            title: 'home.ev_breathe',
+
+            border: false,
+          },
+        },
+        {
+          name: 'ev_meto',
+          path: '/ev_meto',
+          component: () => import('@/views/member/tools/item/meto/index.vue'),
+          meta: {
+            title: 'home.ev_meto',
+
+            border: false,
+          },
+        },
+        {
+          name: 'ev_pressure',
+          path: '/ev_pressure',
+          component: () => import('@/views/member/tools/item/pressure/index.vue'),
+          meta: {
+            title: 'home.ev_pressure',
+
+            border: false,
+          },
+        },
+        {
+          name: 'camera',
+          path: '/camera',
+          component: () => import('@/views/member/health/item/camera/index.vue'),
+          meta: {
+            title: 'home.camera',
+
+            border: false,
+          },
+        },
+        {
+          name: 'card',
+          path: '/card',
+          component: () => import('@/views/member/health/item/card/index.vue'),
+          meta: {
+            title: 'home.card',
+
+            border: false,
+          },
+        },
+        {
+          name: 'car',
+          path: '/car',
+          component: () => import('@/views/member/health/item/car/index.vue'),
+          meta: {
+            title: 'home.car',
+
+            border: false,
+          },
+        },
+        {
+          name: 'cash',
+          path: '/cash',
+          component: () => import('@/views/member/health/item/cash/index.vue'),
+          meta: {
+            title: 'home.cash',
+
+            border: false,
+          },
+        },
+        {
+          name: 'clock',
+          path: '/clock',
+          component: () => import('@/views/member/health/item/clock/index.vue'),
+          meta: {
+            title: 'home.clock',
+
+            border: false,
+          },
+        },
+        {
+          name: 'find_phone',
+          path: '/find_phone',
+          component: () => import('@/views/member/health/item/find_phone/index.vue'),
+          meta: {
+            title: 'home.find_phone',
+
+            border: false,
+          },
+        },
+        {
+          name: 'health_remind',
+          path: '/health_remind',
+          component: () => import('@/views/member/health/item/health_remind/index.vue'),
+          meta: {
+            title: 'home.health_remind',
+
+            border: false,
+          },
+        },
+        {
+          name: 'music',
+          path: '/music',
+          component: () => import('@/views/member/health/item/music/index.vue'),
+          meta: {
+            title: 'home.music',
+
+            border: false,
+          },
+        },
+        {
+          name: 'note',
+          path: '/note',
+          component: () => import('@/views/member/health/item/note/index.vue'),
+          meta: {
+            title: 'home.note',
+
+            border: false,
+          },
+        },
+        {
+          name: 'second',
+          path: '/second',
+          component: () => import('@/views/member/health/item/second/index.vue'),
+          meta: {
+            title: 'home.second',
+
+            border: false,
+          },
+        },
+        {
+          name: 'speech',
+          path: '/speech',
+          component: () => import('@/views/member/health/item/speech/index.vue'),
+          meta: {
+            title: 'home.speech',
+
+            border: false,
+          },
+        },
+        {
+          name: 'tell',
+          path: '/tell',
+          component: () => import('@/views/member/health/item/tell/index.vue'),
+          meta: {
+            title: 'home.tell',
+
+            border: false,
+          },
+        },
+        {
+          name: 'time',
+          path: '/time',
+          component: () => import('@/views/member/health/item/time/index.vue'),
+          meta: {
+            title: 'home.time',
+
+            border: false,
+          },
+        },
+
+        {
+          name: 'others',
+          path: '/others',
+          component: () => import('@/views/member/others/index.vue'),
+          meta: {
+            title: 'home.others',
+
+            border: false,
+          },
+        },
+        {
+          name: 'info',
+          path: '/info',
+          component: () => import('@/views/member/others/info/index.vue'),
+          meta: {
+            title: 'home.info',
+
+            border: false,
+          },
+        },
+        {
+          name: 'lan',
+          path: '/lan',
+          component: () => import('@/views/member/others/lan/index.vue'),
+          meta: {
+            title: 'home.lan',
+
+            border: false,
+          },
+        },
+        {
+          name: 'light',
+          path: '/light',
+          component: () => import('@/views/member/others/light/index.vue'),
+          meta: {
+            title: 'home.light',
+
+            border: false,
+          },
+        },
+        {
+          name: 'lock',
+          path: '/lock',
+          component: () => import('@/views/member/others/lock/index.vue'),
+          meta: {
+            title: 'home.lock',
+
+            border: false,
+          },
+        },
+        {
+          name: 'ota',
+          path: '/ota',
+          component: () => import('@/views/member/others/ota/index.vue'),
+          meta: {
+            title: 'home.ota',
+
+            border: false,
+          },
+        },
+        {
+          name: 'reset',
+          path: '/reset',
+          component: () => import('@/views/member/others/reset/index.vue'),
+          meta: {
+            title: 'home.reset',
+
+            border: false,
+          },
+        },
+        
     ],
   },
   {

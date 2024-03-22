@@ -1,15 +1,15 @@
 <template>
 
   <van-cell-group inset class="gridmain">
-    <van-cell to="/heart_rate" :title="$t('evaluate.heart')" is-link />
-    <van-cell :title="$t('evaluate.bo')" is-link />
-    <van-cell :title="$t('evaluate.bs')" is-link />
-    <van-cell :title="$t('evaluate.bp')" is-link />
-    <van-cell :title="$t('evaluate.sleep')" is-link />
-    <van-cell :title="$t('evaluate.pressure')" is-link />
-    <van-cell :title="$t('evaluate.meto')" is-link />
-    <van-cell :title="$t('evaluate.breathe')" is-link />
-    <van-cell :title="$t('evaluate.female')" is-link />
+    <van-cell to="/ev_heart" :title="$t('evaluate.heart')" is-link />
+    <van-cell to="/ev_bo" :title="$t('evaluate.bo')" is-link />
+    <van-cell to="/ev_bs" :title="$t('evaluate.bs')" is-link />
+    <van-cell to="/ev_bp" :title="$t('evaluate.bp')" is-link />
+    <van-cell to="/ev_sleep" :title="$t('evaluate.sleep')" is-link />
+    <van-cell to="/ev_pressure" :title="$t('evaluate.pressure')" is-link />
+    <van-cell to="/ev_meto" :title="$t('evaluate.meto')" is-link />
+    <van-cell to="/ev_breathe" :title="$t('evaluate.breathe')" is-link />
+    <van-cell to="/ev_heart" :title="$t('evaluate.female')" is-link />
   </van-cell-group>
   {{ getUserInfo }}
 </template>

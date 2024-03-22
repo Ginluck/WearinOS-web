@@ -2,15 +2,15 @@
 
 
   <div class="gridmain">
-      <div class="Title">{{ $t('sport.sport_title') }}</div>
-      <div class="paratext">{{ $t('sport.sport_desc1') }}</div>
-      <div class="paratext_bot"></div>
-      <div class="Title_minor">{{ $t('sport.sport_title1') }}</div>
-      <li class="paratext">{{ $t('sport.sport_desc2') }}</li>
-      <li class="paratext">{{ $t('sport.sport_desc3') }}</li>
-      <div class="paratext_bot"></div>
-      <div class="paratext2">{{ $t('sport.sport_desc4') }}</div>
-      <div class="paratext_bot"></div>
+    <div class="Title">{{ $t('evaluate.sleep') }}</div>
+    <div class="paratext">{{ $t('evaluate.sleep_desc') }}</div>
+    <div class="Title_minor">{{ $t('evaluate.sleep_title') }}</div>
+    <li class="paratext">{{ $t('evaluate.sleep_test_desc1') }}</li>
+    <li class="paratext">{{ $t('evaluate.sleep_test_desc2') }}</li>
+    <li class="paratext">{{ $t('evaluate.sleep_test_desc3') }}</li>
+    <div class="paratext_bot"></div>
+    <div class="paratext2">{{ $t('health.heart_te5') }}</div>
+    <div class="paratext_bot"></div>
     </div>
   
   </template>
@@ -73,12 +73,12 @@
       padding-top: 20px;
     }
     .paratext2 {
-      color: #a19f9f;
-      font-size: 26px;
-      padding-right: 26px;
-      padding-left: 26px;
-      padding-top: 20px;
-    }
+    color: #a19f9f;
+    font-size: 26px;
+    padding-right: 26px;
+    padding-left: 26px;
+    padding-top: 20px;
+  }
     .paratext_bot {
       padding-bottom: 40px;
     }
